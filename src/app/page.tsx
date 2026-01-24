@@ -16,11 +16,14 @@ export default function Home() {
           </h1>
 
           <p className="mt-4 text-xl font-bold text-white/90">
-            Javier · Junior Front-end · Angular / React / TypeScript
+            Javier · Junior Front-end 
+          </p>
+            <p className="mt-4 text-xl font-bold text-white/90">
+            Next / Angular / React / TypeScript / CSS
           </p>
 
           <p className="mt-3 font-semibold text-white/80">
-            Candidato para Minsait (Indra): motivación, trabajo en equipo y aprendizaje continuo.
+            Motivación, trabajo en equipo y aprendizaje continuo.
           </p>
 
           <Link

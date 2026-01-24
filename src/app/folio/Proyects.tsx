@@ -1,15 +1,31 @@
 const projects = [
   {
-    title: "Portfolio en Next.js (este)",
-    desc: "Migración desde Angular, estructura por componentes, UI responsive y commits profesionales.",
-    tags: ["Next.js", "TypeScript", "Tailwind", "DaisyUI"],
-    link: "#",
+    title: "APPINFOEX – Digitalización servicio de incendios",
+    desc: "Aplicación en Next.js orientada a digitalización/operativa. Despliegue en Vercel.",
+    tags: ["Next.js", "TypeScript", "Vercel"],
+    repo: "https://github.com/JavyProgrameitor/APPINFOEX",
+    demo: "https://appinfoex.vercel.app/",
   },
   {
-    title: "App Front con Angular",
-    desc: "Proyecto Angular con componentes, routing y enfoque en mantenibilidad.",
-    tags: ["Angular", "TypeScript", "UI"],
-    link: "#",
+    title: "ClonSpotify – UI + consumo de API",
+    desc: "Clon de Spotify con Tailwind. Interacción con API para subir y escuchar canciones.",
+    tags: ["HTML", "JavaScript", "Tailwind", "API"],
+    repo: "https://github.com/JavyProgrameitor/ClonSpotify",
+    demo: "https://clon-spotify-jet.vercel.app",
+  },
+  {
+    title: "React-Form – Formulario en React + TS",
+    desc: "Proyecto React + TypeScript (Vite). Base para formularios y validación en apps corporativas.",
+    tags: ["React", "TypeScript", "Vite"],
+    repo: "https://github.com/JavyProgrameitor/React-Form",
+    demo: "https://react-form-vercel.vercel.app",
+  },
+  {
+    title: "API-React-Film – App React con API",
+    desc: "Aplicación en React consumiendo una API (Vite).",
+    tags: ["React", "JavaScript", "API", "Vite"],
+    repo: "https://github.com/JavyProgrameitor/API-React-Film",
+    demo: "https://api-react-film.vercel.app",
   },
 ];
 
@@ -32,9 +48,12 @@ export function Projects() {
                     </span>
                   ))}
                 </div>
-                <div className="mt-6">
-                  <a className="btn btn-outline font-extrabold" href={p.link}>
-                    Ver repo / demo
+                <div className="mt-6 flex gap-2">
+                  <a className="btn btn-outline font-extrabold" href={p.repo}>
+                    Repo
+                  </a>
+                  <a className="btn btn-outline font-extrabold" href={p.demo}>
+                    Demo
                   </a>
                 </div>
               </div>
