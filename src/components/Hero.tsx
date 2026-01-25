@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export function Hero() {
   return (
-    <section className="bg-slate-200 text-slate-700">
+    <section className="bg-base-200 text-base-content">
       <div className="hero">
         <div className="hero-content flex flex-col lg:flex-row gap-10">
           <Image
@@ -16,7 +16,7 @@ export function Hero() {
           <div className="text-center lg:text-left max-w-2xl">
             <p className="text-xl font-extrabold">Hola, soy Javier</p>
 
-            <h1 className="text-5xl font-extrabold text-slate-950">
+            <h1 className="text-5xl font-extrabold heading-gradient">
               Desarrollador Front-end Junior
             </h1>
 
@@ -30,8 +30,8 @@ export function Hero() {
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3 justify-center lg:justify-start">
-              <a className="btn btn-outline font-extrabold" href="#projects">Ver proyectos</a>
-              <a className="btn btn-active font-extrabold" href="#contact">Contactar</a>
+              <a className="btn btn-neutral text-white rounded-xl font-extrabold" href="#projects">Ver proyectos</a>
+              <a className="btn btn-neutral text-white rounded-xl font-extrabold" href="#contact">Contactar</a>
             </div>
 
             <div className="mt-6 flex flex-wrap gap-2 justify-center lg:justify-start">

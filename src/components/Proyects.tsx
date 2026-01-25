@@ -11,7 +11,7 @@ const projects = [
     desc: "Clon de Spotify con Tailwind. Interacción con API para subir y escuchar canciones.",
     tags: ["HTML", "JavaScript", "Tailwind", "API"],
     repo: "https://github.com/JavyProgrameitor/ClonSpotify",
-    demo: "https://clon-spotify-jet.vercel.app",
+    demo: " https://javyprogrameitor.github.io/ClonSpotify/",
   },
   {
     title: "React-Form – Formulario en React + TS",
@@ -48,11 +48,11 @@ export function Projects() {
                     </span>
                   ))}
                 </div>
-                <div className="mt-6 flex gap-2">
-                  <a className="btn btn-outline font-extrabold" href={p.repo}>
+                <div className="mt-6 flex items-center justify-center gap-2">
+                  <a className="btn btn-active font-extrabold" href={p.repo}>
                     Repo
                   </a>
-                  <a className="btn btn-outline font-extrabold" href={p.demo}>
+                  <a className="btn btn-active font-extrabold" href={p.demo}>
                     Demo
                   </a>
                 </div>
@@ -60,10 +60,6 @@ export function Projects() {
             </div>
           ))}
         </div>
-
-        <p className="mt-8 text-center font-bold opacity-70">
-          En el siguiente paso te dejo los links reales (GitHub / Vercel) y añadimos capturas.
-        </p>
       </div>
     </section>
   );

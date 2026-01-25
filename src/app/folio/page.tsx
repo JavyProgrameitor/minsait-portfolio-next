@@ -1,13 +1,15 @@
-import { Navbar } from "@/app/folio/Navbar";
-import { Hero } from "@/app/folio/Hero";
-import { About } from "@/app/folio/About";
-import { Skills } from "@/app/folio/Skills";
-import { Projects } from "@/app/folio/Proyects";
-import { Contact } from "@/app/folio/Contact";
+import { Navbar } from "@/components/Navbar";
+import { Hero } from "@/components/Hero";
+import { About } from "@/components/About";
+import { Skills } from "@/components/Skills";
+import { Projects } from "@/components/Proyects";
+import { Contact } from "@/components/Contact";
+import { TechCarousel } from "../../components/TechCarousel";
 
 export default function FolioPage() {
   return (
-    <>
+    
+     <div className="accent-gradient">
       <div className="p-4">
         <Navbar />
       </div>
@@ -16,6 +18,7 @@ export default function FolioPage() {
       <About />
       <Skills />
       <Projects />
+      <TechCarousel />
       <Contact />
 
       <footer className="bg-slate-900 text-white py-8 text-center">
@@ -23,6 +26,7 @@ export default function FolioPage() {
           © 2026 · Portfolio · Desarrollador Junior Front-end
         </p>
       </footer>
-    </>
+      </div>
+    
   );
 }

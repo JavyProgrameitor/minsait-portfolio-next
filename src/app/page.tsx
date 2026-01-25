@@ -7,7 +7,8 @@ export default function Home() {
       style={{ backgroundImage: "url('/images/FondoPortfolio.jpeg')" }}
     >
       {/* overlay */}
-      <div className="absolute inset-0 bg-black/40" />
+   <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/35 to-black/60" />
+
 
       <div className="relative z-10 flex min-h-screen items-center justify-center px-6 text-center">
         <div className="max-w-xl">

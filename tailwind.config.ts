@@ -10,6 +10,10 @@ const config: Config = {
     extend: {},
   },
   plugins: [require("daisyui")],
+   daisyui: {
+    themes: ["winter", "dracula"], // claro / oscuro (muy bonitos)
+    darkTheme: "dracula",
+  },
 };
 
 export default config;

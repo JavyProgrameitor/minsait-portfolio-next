@@ -37,7 +37,7 @@ export function About() {
               <div className="collapse-title text-xl font-extrabold">Objetivo en Minsait</div>
               <div className="collapse-content font-bold">
                 <p>
-                  Crecer en proyectos de transformación digital, rodeado de referentes técnicos, aportando valor desde el Front-end.
+                  Crecer en proyectos de transformación digital, rodeado de referentes técnicos, aportando valor desde el Front-end y el Backend
                 </p>
               </div>
             </div>
