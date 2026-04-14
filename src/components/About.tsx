@@ -34,7 +34,7 @@ export function About() {
 
             <div className="collapse collapse-plus bg-base-200">
               <input type="radio" name="about-accordion" />
-              <div className="collapse-title text-xl font-extrabold">Objetivo en Minsait</div>
+              <div className="collapse-title text-xl font-extrabold">Objetivos principales</div>
               <div className="collapse-content font-bold">
                 <p>
                   Crecer en proyectos de transformación digital, rodeado de referentes técnicos, aportando valor desde el Front-end y el Backend

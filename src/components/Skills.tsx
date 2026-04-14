@@ -13,7 +13,7 @@ export function Skills() {
       <div className="mx-auto max-w-5xl px-6">
         <h2 className="text-3xl font-extrabold mb-2 text-center">Habilidades</h2>
         <p className="text-center font-semibold text-slate-600 mb-10">
-          Enfoque junior, con base sólida y ganas de crecer en proyectos de Indra/Minsait.
+          Enfoque junior, con base sólida y ganas de crecer en proyectos frontend. Siempre aprendiendo y mejorando.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -25,8 +25,8 @@ export function Hero() {
             </p>
 
             <p className="mt-4 font-semibold opacity-90">
-              Busco incorporarme a un equipo como <span className="font-extrabold">Minsait (Indra)</span> para
-              crecer en proyectos con impacto, aprendiendo buenas prácticas y aportando una UI clara, accesible y mantenible.
+              Busco incorporarme a un equipo paracrecer en proyectos con impacto, 
+              aprendiendo buenas prácticas y aportando una UI clara, accesible y mantenible.
             </p>
 
             <div className="mt-6 flex flex-wrap gap-3 justify-center lg:justify-start">

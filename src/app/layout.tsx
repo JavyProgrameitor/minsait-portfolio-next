@@ -15,7 +15,7 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Javier · Junior Front-end · Indra / Minsait",
+  title: "Javier · Junior Front-end Developer",
   description:
     "Portfolio de Javier (Junior Front-end): Angular, React, Next.js, TypeScript. Proyectos reales y despliegues en Vercel.",
 };

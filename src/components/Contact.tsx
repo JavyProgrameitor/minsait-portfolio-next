@@ -36,7 +36,7 @@ export function Contact() {
             Contacto
           </h2>
           <p className="mt-3 text-base font-semibold text-slate-600">
-            Abierto a oportunidades Junior Front-end (Minsait / Indra). Respondo rápido por email.
+            Abierto a oportunidades Junior Front-end. Respondo rápido por email.
           </p>
         </div>
 
